@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="carbon.SummaryPopup"
+          prefHeight="200.0" prefWidth="300.0"
+          alignment="CENTER">
+    <VBox alignment="CENTER">
+        <Label fx:id="mainLabel"/>
+        <Button fx:id="closeButton" text="Close"/>
+    </VBox>
+
+</GridPane>
